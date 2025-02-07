@@ -47,6 +47,9 @@
     <script>
         function answerYes() {
             document.getElementById('response').innerHTML = "Yay! I love you! 💖";
+            setTimeout(() => {
+                window.location.href = "happy_rose_day.html";
+            }, 2000);
         }
         function answerNo() {
             document.getElementById('response').innerHTML = "Oh no! 😢 But I still love you!";
